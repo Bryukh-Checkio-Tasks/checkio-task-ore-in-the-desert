@@ -32,7 +32,6 @@ def process_referee(referee_data, user_result):
         })
         return referee_data
     ore = referee_data["ore_coordinate"]
-    print(row, col, ore)
     if [row, col] == ore:
         referee_data.update({
             "result": True,
