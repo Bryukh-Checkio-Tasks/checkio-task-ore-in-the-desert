@@ -15,10 +15,10 @@ def initial_referee(init):
 
 
 def process_referee(referee_data, user_result):
-    if type(user_result) != list or len(user_result) != 2 or type(user_result[0]) != int or type(user_result[0]) != int:
+    if type(user_result) != list or len(user_result) != 2 or type(user_result[0]) != int or type(user_result[1]) != int:
         referee_data.update({
             "result": False,
-            "result_addon": "The function should return a list with three values.",
+            "result_addon": "The function should return a list with integers values.",
             "explanation": -1
         })
         return referee_data
