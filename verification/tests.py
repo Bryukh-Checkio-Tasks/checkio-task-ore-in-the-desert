@@ -11,10 +11,12 @@ TESTS = {
     "1. Example": [1, 1],
     "2. Fixed": [9, 9],
     "3. Fixed": [5, 5],
-    "4. Fixed": [0, 6],
-    "5. Random": None,
-    "6. Random": None,
+    "4. Fixed": [0, 0],
+    "5. Fixed": [0, 9],
+    "6. Fixed": [9, 0],
     "7. Random": None,
+    "8. Random": None,
+    "9. Random": None,
 
 
 }
