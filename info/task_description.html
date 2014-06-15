@@ -26,7 +26,7 @@
 </p>
 
 <p>
-    <strong>Input: </strong> Information of the previous probes as a list of lists.
+    <strong>Input: </strong> Information of the previous probes as a list of lists. Each list contains three integers.
 </p>
 
 <p>
@@ -49,4 +49,11 @@ checkio([[5, 3, 4], [2, 9, 3]])</pre>
     Trilateration is the process of determining absolute or relative locations of points by measurement of distances,
     using the geometry of circles, spheres or triangles. In addition to being an interesting geometric problem,
     trilateration does have practical applications in surveying and navigation and is an important part of the equations making global positioning systems (GPS) possible.
+</p>
+
+<p>
+    <strong>Precondition: </strong><br>
+    len(desert) == 10<br>
+    all(len(row) == 10 for row in desert)<br>
+    There is always exist an ore cell in the desert.
 </p>
